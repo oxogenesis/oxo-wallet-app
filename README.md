@@ -38,8 +38,8 @@
 ## 请先阅读一些相关想法
 https://github.com/oxogenesis/oxo-chat-client/wiki  
 https://oxo-chat-server.com/bulletin/55D7F112C28572D83A765CCAE3955E78  
-https://oxo-chat-server.com/bulletin_next/55D7F112C28572D83A765CCAE3955E78  
-https://oxo-chat-server.com/bulletin_next/0A336CE7C1BB71649D5EE99AE2ED2FDD  
+https://oxo-chat-server.com/bulletin/0A336CE7C1BB71649D5EE99AE2ED2FDD  
+https://oxo-chat-server.com/bulletin/46B6F8E8A7D5E4BA24BEB8BCD5F790EE  
 
 ## 公告聊天应用
 （源码）https://github.com/oxogenesis/oxo-chat-app  
