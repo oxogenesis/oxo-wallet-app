@@ -45,16 +45,6 @@ const TabWalletScreen = (props) => {
         </View>
       }
 
-      <Text style={{ color: 'grey', fontWeight: 'bold' }}>
-        {props.avatar.get('Address')}
-      </Text>
-      <Text style={{ color: 'grey', fontWeight: 'bold' }}>
-        {`OwnerCount:${props.avatar.get('OwnerCount')}`}
-      </Text>
-      <Text style={{ color: 'grey', fontWeight: 'bold' }}>
-        {`Sequence:${props.avatar.get('Sequence')}`}
-      </Text>
-
       <ScrollView
         style={styles.scroll_view}
         automaticallyAdjustContentInsets={false}

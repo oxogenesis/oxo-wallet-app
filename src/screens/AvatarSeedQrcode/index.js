@@ -14,7 +14,7 @@ const AvatarSeedQrcodeScreen = (props) => {
   确定要查看种子吗？`
 
   const { theme } = useContext(ThemeContext)
-  const [qrcode, seQrcode] = useState('xxx')
+  const [qrcode, setQrcode] = useState('xxx')
   const [visible_view_seed, showViewSeed] = useState(false)
 
   const viewSeedAlert = () => {
@@ -28,7 +28,7 @@ const AvatarSeedQrcodeScreen = (props) => {
   useEffect(() => {
     return props.navigation.addListener('focus', () => {
       let json = { "Name": props.avatar.get('Name'), "Seed": props.avatar.get('Seed') }
-      seQrcode(JSON.stringify(json))
+      setQrcode(JSON.stringify(json))
     })
   })
 
